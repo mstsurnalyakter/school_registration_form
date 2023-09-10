@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+form{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 20vh;
+}
+
+.title{
+    margin-left: 30px;
+}
+
+img{
+    display: inline-block;
+    margin: 1rem;
+}
+
+ h1{
+    margin: 1rem;
+    min-height: 5vh;
+    line-height: 5vh;
+ }
+
+ span{
+    color: red;
+ }
+
+ main{
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+ }
+
+ .section{
+    height:10vh;
+    margin: 5px;
+ }
+
+ .input{
+    display: flex;
+ }
+
+ .left, .right, .midd{
+    display: flex;
+    flex-direction: column;
+
+    /* margin: 10px; */
+ }
+  input, select, textarea{
+    padding: 5px;
+    width: 100%;
+    border-radius: 0.2rem;
+    border: 1px solid gray;
+    margin: 8px;
+    display: inline-block;
+ }
+
+ textarea{
+    resize: none;
+ }
+
+
+ input:focus,
+ select:focus,
+ textarea:focus{
+    border: 3px solid crimson;
+ }
+
+ select{
+    width: 20vw;
+ }
+
+ label{
+    padding: 5px;
+     color: gray;
+ }
+
+
+ footer{
+    min-height: 8vh;
+    margin: 0 auto;
+     margin-top: 4vh;
+ }
+
+ footer button{
+    display: inline-block;
+    width: 10rem;
+    padding: 10px;
+    cursor: pointer;
+ }
+
+ .com{
+    width: 40%;
+ }
+
+ @media (min-width:992px) {
+    body{
+        background-color: #eee;
+    }
+    form{
+        width: 80vw;
+        background-color: white;
+        margin: 0 auto;
+    }
+ }

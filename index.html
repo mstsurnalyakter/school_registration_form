@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Bible School Registration</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="">
+        <header>
+            <img src="./VBS_Image.jpg" alt="">
+        </header>
+        <hr class="hr_design">
+        <h1>Registration Form</h1>
+        <hr class="hr_design">
+
+        <main>
+            <section class="section">
+                <h2 class="title">Child's Name: <span>*</span></h2>
+                <section class="input">
+                    <section class="left">
+                        <input type="text" name="fname" id="fname" required>
+                        <label for="fname">First Name</label>
+                    </section>
+                    <section class="right">
+                        <input type="text" name="lname" id="lname" required>
+                        <label for="lname">Last Name</label>
+                    </section>
+                </section>
+            </section>
+            <section class="section">
+                  <h2 class="title">Birth Date: <span>*</span></h2>
+               <section class="input">
+                    <section class="left">
+                        <select name="mon" id="mon" required>
+                            <option value=""></option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                        </select>
+                        <label for="mon">Month</label>
+                    </section>
+                    <section class="midd">
+                        <select name="day" id="day" required>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                        <label for="day">Day</label>
+                    </section>
+                    <section class="right">
+                        <select name="day" id="day">
+                            <option value=""></option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                        </select>
+                        <label for="day">Day</label>
+                    </section>
+                </section>
+            </section>
+            <section class="section">
+                  <section class="left">
+                     <h2 class="title">Age: <span>*</span></h2>
+                        <input required type="text" name="age" id="age" placeholder="ex:10" class="com">
+                    </section>
+            </section>
+            <section class="section">
+                <h2 class="title">Grade Completed: <span>*</span></h2>
+                        <input type="text" name="ge" id="ge"  class="com" >
+                    </section>
+            </section>
+            
+
+        </main>
+        <hr class="hr_design">
+
+        <footer>
+            <button type="submit">Next</button>
+            <button type="reset">Back</button>
+        </footer>
+
+    </form>
+
+</body>
+</html>
